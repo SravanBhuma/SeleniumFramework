@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteA"  parallel="classes"  thread-count="5">
+  <test name="Test">
+    <classes>
+      <class name="Practice.Framework.NewTest"/>
+    </classes>
+  </test>
+  
+  <test name="Test2">
+    <classes>
+      <class name="Practice.Framework.TestNGMethodsTest"/>
+    </classes>
+  </test>
+</suite>
+
+
+
+
+
+
+<!--  
+<?xml version="1.0" encoding="UTF-8"?>
+    <suite name="TestNG Dadadriver suite"  > 
+            <suite-files>
+                   <suite-file path="./suiteA.xml" />
+                   <suite-file path="./suiteB.xml" />
+            </suite-files>
+    </suite>
+-->

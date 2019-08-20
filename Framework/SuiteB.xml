@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteB">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Practice.Framework.TestNGMethodsTestThree" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="Practice.Framework.TestNGMethodsTestTwo" />
+			<class name="Practice.Framework.TestNGMethodsTest" />
+		</classes>
+	</test>
+</suite>

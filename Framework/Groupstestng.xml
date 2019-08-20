@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groupstestng">
+	<!-- <parameter name="NameParameter" value="ParameterCheck"/> -->
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="include-group">
+				<include name=".*anit.*" />
+				<include name="smo.*" />
+			</define>
+			<define name="exclude-group">
+				<include name=".*gression" />
+			</define>
+			<run>
+				<include name="include-group" />
+				<exclude name="exclude-group" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Practice.Framework.TestNGMethodsTestThree" />
+			<class name="Practice.Framework.TestNGMethodsTestTwo" />
+			<class name="Practice.Framework.TestNGMethodsTest" />
+		</classes>
+	</test>
+</suite>
