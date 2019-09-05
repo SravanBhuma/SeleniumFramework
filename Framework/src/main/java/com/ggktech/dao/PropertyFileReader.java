@@ -20,7 +20,6 @@ public class PropertyFileReader
 		try
 		{
 			propertyFilePath= path+ File.separator +PathConstants.RESOURCE_PATH+ File.separator +FileName;
-			System.out.println(propertyFilePath);
 			objfile = new FileInputStream(propertyFilePath);
 			prop = new Properties();
 			prop.load(objfile);

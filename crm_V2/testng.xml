@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="salesCRM">
+  <test name="SalesCRMTest">
+    <classes>
+      <class name="sales.crm.CreateLead"/>
+      <class name="sales.crm.VerifySorting"/>
+      <class name="sales.crm.VerifyShowHide"/>
+    </classes>
+  </test> <!-- HRMSTest -->
+</suite> <!-- Suite -->

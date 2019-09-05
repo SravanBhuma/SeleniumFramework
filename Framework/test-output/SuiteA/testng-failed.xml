@@ -5,8 +5,8 @@
     <classes>
       <class name="Practice.Framework.NewTest">
         <methods>
-          <include name="DataProviderExample"/>
           <include name="TearDown"/>
+          <include name="Practice"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- Practice.Framework.NewTest -->

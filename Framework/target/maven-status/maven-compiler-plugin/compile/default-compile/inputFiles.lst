@@ -1,6 +1,7 @@
-E:\WorkSpace\Framework\src\main\java\com\ggktech\service\RetryAnalyzer.java
-E:\WorkSpace\Framework\src\main\java\com\ggktech\dao\PropertyFileReader.java
-E:\WorkSpace\Framework\src\main\java\com\ggktech\service\PublicLibrary.java
-E:\WorkSpace\Framework\src\main\java\com\ggktech\service\DataProviders.java
-E:\WorkSpace\Framework\src\main\java\com\ggktech\dao\ExcelReader.java
-E:\WorkSpace\Framework\src\main\java\com\ggktech\dao\ExcelReader_BackUp.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\service\DataProviders.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\dao\DBConnection.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\service\RetryAnalyzer.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\dao\PropertyFileReader.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\service\PublicLibrary.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\dao\ExcelReader.java
+C:\Users\sravan.bhuma\git\SeleniumFramework\Framework\src\main\java\com\ggktech\dao\ExcelReader_BackUp.java

@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listeners.TestNGListenersExample"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Practice.Framework.RetryFailedExample">
+      <class name="com.listeners.TestNGListenersDemo2">
         <methods>
-          <include name="test1"/>
+          <include name="Test7"/>
+          <include name="Test8"/>
         </methods>
-      </class> <!-- Practice.Framework.RetryFailedExample -->
+      </class> <!-- com.listeners.TestNGListenersDemo2 -->
+      <class name="com.listeners.TestNGListenersDemo3">
+        <methods>
+          <include name="Test12"/>
+          <include name="Test11"/>
+        </methods>
+      </class> <!-- com.listeners.TestNGListenersDemo3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

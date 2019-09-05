@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [salesCRM]">
+  <test name="SalesCRMTest(failed)">
+    <classes>
+      <class name="sales.crm.CreateLead">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="creatingLead"/>
+          <include name="setup"/>
+          <include name="result"/>
+          <include name="logout"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- sales.crm.CreateLead -->
+      <class name="sales.crm.VerifyShowHide">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="setup"/>
+          <include name="result"/>
+          <include name="logout"/>
+          <include name="driverSetup"/>
+          <include name="verifyingShowHide"/>
+        </methods>
+      </class> <!-- sales.crm.VerifyShowHide -->
+      <class name="sales.crm.VerifySorting">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="setup"/>
+          <include name="verifyingSorting"/>
+          <include name="result"/>
+          <include name="logout"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- sales.crm.VerifySorting -->
+    </classes>
+  </test> <!-- SalesCRMTest(failed) -->
+</suite> <!-- Failed suite [salesCRM] -->
